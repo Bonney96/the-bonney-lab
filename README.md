@@ -13,13 +13,13 @@ Here, you'll find:
 
 ## Exploring The Garden
 
-Visit the live garden at [yourusername.github.io/the-bonney-lab](https://yourusername.github.io/the-bonney-lab) (replace with your actual URL once deployed).
+Visit the live garden at [Bonney96.github.io/the-bonney-lab](https://Bonney96.github.io/the-bonney-lab).
 
 Key pages:
-- [Home](https://yourusername.github.io/the-bonney-lab) - Introduction to The Bonney Lab
-- [About](https://yourusername.github.io/the-bonney-lab/about) - Purpose and philosophy
-- [Topics](https://yourusername.github.io/the-bonney-lab/topics) - Browse by category
-- [Notes](https://yourusername.github.io/the-bonney-lab/notes) - All published notes
+- [Home](https://Bonney96.github.io/the-bonney-lab) - Introduction to The Bonney Lab
+- [About](https://Bonney96.github.io/the-bonney-lab/about) - Purpose and philosophy
+- [Topics](https://Bonney96.github.io/the-bonney-lab/topics) - Browse by category
+- [Notes](https://Bonney96.github.io/the-bonney-lab/notes) - All published notes
 
 ## Technical Details
 
