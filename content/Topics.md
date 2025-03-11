@@ -4,39 +4,45 @@ title: Topics
 
 # Topics
 
-This page organizes the content of The Bonney Lab by category. Browse through these topics to explore related ideas and notes.
+Browse the contents of The Bonney Lab Digital Garden by topic area.
 
-## Research Areas
+## By Growth Stage
 
-- [[Research/Machine Learning]]
-- [[Research/Data Science]]
-- [[Research/Computer Vision]]
-- [[Research/Natural Language Processing]]
+The Bonney Lab organizes content by maturity, following the gardening metaphor:
 
-## Projects
+- [[Seeds|🌱 Seeds]] - Raw, nascent ideas that are just beginning to sprout
+- [[Trees|🌿 Trees]] - Ideas taking root with developed structure and connections
+- [[Fruits|🍎 Fruits]] - Mature, refined ideas that have reached a stable state
 
-- [[Projects/Current]]
-- [[Projects/Completed]]
-- [[Projects/Ideas]]
+Learn more about this organization system in [[Understanding Growth Stages]].
 
-## Learning
+## By Subject Area
 
-- [[Learning/Books]]
-- [[Learning/Courses]]
-- [[Learning/Tutorials]]
-- [[Learning/Papers]]
+Browse notes by their subject area:
 
-## Tools & Resources
+- **Digital Garden**: Concepts related to digital gardening and knowledge management
+  - [[Digital Garden Principles]]
+  - [[Understanding Growth Stages]]
+  - [[Adding Notes Guide]]
 
-- [[Tools/Software]]
-- [[Tools/Frameworks]]
-- [[Tools/Datasets]]
-- [[Tools/Research Methods]]
+- **Research Ideas**: Explorations and potential research directions
+  - [[Ideas for Future Research]]
 
-## Meta
+- **Meta**: Information about The Bonney Lab itself
+  - [[About]]
+  - [[Meta/Digital Garden/Bonney Lab Structure|Garden Structure]]
 
-- [[Meta/Digital Garden]]
-- [[Meta/Knowledge Management]]
-- [[Meta/Learning in Public]]
+## By Tag
 
-*This page will grow and evolve as new content is added to The Bonney Lab.* 
+Browse notes by tag:
+
+- #digital-garden
+- #meta
+- #research
+- #ideas
+- #knowledge-management
+- #principles
+
+---
+
+*Can't find what you're looking for? Try using the search or check out the [[Notes]] page.* 
