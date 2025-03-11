@@ -23,7 +23,7 @@ A Digital Garden is like a laboratory where internal work and the evolution of r
 
 ## Recent Updates
 
-- New: [[Projects/EpiBench/epibench-introduction|EpiBench]] - An integrated platform for epigenetic analysis
+- **NEW (March 11)**: [[Projects/EpiBench/epibench-introduction|EpiBench Platform]] - An integrated platform for epigenetic analysis now available!
 - Coming soon...
 
 *This digital garden was created with [Quartz](https://quartz.jzhao.xyz/).* 
