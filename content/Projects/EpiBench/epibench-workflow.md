@@ -3,7 +3,7 @@ title: "EpiBench Workflow: A Step-by-Step Guide"
 date: "2023-09-05"
 tags: ["epigenetics", "bioinformatics", "workflow", "tutorial"]
 status: "growing"
-related: ["epibench-introduction", "epibench-technical-requirements", "epibench-aml-case-study"]
+related: ["Projects/EpiBench/epibench-introduction", "Projects/EpiBench/epibench-technical-requirements", "Projects/EpiBench/epibench-aml-case-study"]
 ---
 
 # EpiBench Workflow: A Step-by-Step Guide
@@ -413,4 +413,4 @@ fine_tuning_history = pretrained_model.train(
 
 ---
 
-*This workflow guide provides a starting point for EpiBench analyses. For technical setup details, see [[epibench-technical-requirements]]. For a real-world application, check out the [[epibench-aml-case-study]].* 
+*This workflow guide provides a starting point for EpiBench analyses. For technical setup details, see [[Projects/EpiBench/epibench-technical-requirements|Technical Requirements]]. For a real-world application, check out the [[Projects/EpiBench/epibench-aml-case-study|AML Case Study]].* 

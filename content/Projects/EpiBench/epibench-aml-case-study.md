@@ -3,14 +3,14 @@ title: "Case Study: Predicting DNA Methylation in AML Samples with EpiBench"
 date: "2023-08-10"
 tags: ["epigenetics", "AML", "methylation", "case-study", "histone-modifications"]
 status: "growing"
-related: ["epibench-introduction", "epibench-technical-requirements"]
+related: ["Projects/EpiBench/epibench-introduction", "Projects/EpiBench/epibench-technical-requirements"]
 ---
 
 # Predicting DNA Methylation in AML: An EpiBench Case Study
 
 ![AML Methylation Visualization](https://via.placeholder.com/800x400?text=AML+Methylation+Visualization)
 
-*This case study demonstrates how EpiBench can be applied to predict DNA methylation patterns in Acute Myeloid Leukemia (AML) samples. Last updated: {{date}}*
+*This case study demonstrates how EpiBench can be applied to predict DNA methylation patterns in Acute Myeloid Leukemia (AML) samples. Last updated: 2023-08-10*
 
 ## Research Question
 
@@ -132,4 +132,4 @@ All code is available in our GitHub repository, allowing researchers to replicat
 
 ---
 
-*This note explores one application of EpiBench. To learn more about the platform itself, visit the [[epibench-introduction]] page. For technical details on running similar analyses, see [[epibench-technical-requirements]].* 
+*This note explores one application of EpiBench. To learn more about the platform itself, visit the [[Projects/EpiBench/epibench-introduction|Introduction to EpiBench]] page. For technical details on running similar analyses, see [[Projects/EpiBench/epibench-technical-requirements|Technical Requirements]].* 

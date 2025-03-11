@@ -9,7 +9,7 @@ status: "growing"
 
 ![EpiBench Visualization Example](https://via.placeholder.com/800x400?text=EpiBench+Visualization+Example)
 
-*Note: This is a living document that will evolve as EpiBench develops further. Last updated: {{date}}*
+*Note: This is a living document that will evolve as EpiBench develops further. Last updated: 2023-06-15*
 
 ## The Epigenetic Challenge
 
@@ -83,7 +83,7 @@ This digital garden will document ongoing improvements and applications as EpiBe
 
 EpiBench has been applied to several research questions:
 
-- Predicting DNA methylation in AML samples using histone modification data [[link to AML case study](/epibench-aml-case-study)]
+- Predicting DNA methylation in AML samples using histone modification data [[Projects/EpiBench/epibench-aml-case-study|AML case study]]
 - Identifying regulatory motifs associated with specific histone mark combinations
 - Comparing epigenetic profiles across different cell types and conditions
 
@@ -91,9 +91,8 @@ EpiBench has been applied to several research questions:
 
 Interested in using EpiBench for your research? Check out these resources:
 
-- [Technical Requirements](/epibench-technical-requirements) for running EpiBench
-- [Installation Guide](/epibench-installation) with step-by-step instructions
-- [Typical Workflow](/epibench-workflow) demonstrating a standard analysis
+- [[Projects/EpiBench/epibench-technical-requirements|Technical Requirements]] for running EpiBench
+- [[Projects/EpiBench/epibench-workflow|Typical Workflow]] demonstrating a standard analysis
 
 ## Join the Conversation
 

@@ -3,7 +3,7 @@ title: "EpiBench Technical Requirements and Setup"
 date: "2023-07-20"
 tags: ["epigenetics", "bioinformatics", "technical", "installation"]
 status: "growing"
-related: ["epibench-introduction", "epibench-aml-case-study"]
+related: ["Projects/EpiBench/epibench-introduction", "Projects/EpiBench/epibench-aml-case-study"]
 ---
 
 # EpiBench: Technical Requirements and Setup
@@ -189,4 +189,4 @@ If you encounter issues not covered here:
 
 ---
 
-*This note covers the technical setup for EpiBench. To understand the platform's capabilities, visit the [[epibench-introduction]] page. For a practical application example, see the [[epibench-aml-case-study]].* 
+*This note covers the technical setup for EpiBench. To understand the platform's capabilities, visit the [[Projects/EpiBench/epibench-introduction|Introduction to EpiBench]] page. For a practical application example, see the [[Projects/EpiBench/epibench-aml-case-study|AML Case Study]].* 
