@@ -2,15 +2,26 @@ import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/randomNote.scss"
 import { jsx } from "preact/jsx-runtime"
 import { useCallback, useEffect, useState } from "preact/hooks"
+import { QuartzPluginData } from "../plugins/vfile"
 
 function RandomNote({ fileData, displayClass }: QuartzComponentProps) {
-  const allNotes = fileData.filter((file) => {
-    return !file.slug?.startsWith("index") && 
-      !file.slug?.startsWith("About") && 
-      !file.slug?.startsWith("Topics") && 
-      !file.slug?.startsWith("Notes") &&
-      !file.slug?.includes("404")
-  })
+  // Convert fileData to an array we can work with
+  const typedFileData = Array.isArray(fileData) ? fileData : []
+  
+  // Filter notes to exclude special pages
+  const allNotes = typedFileData
+    .filter((file): file is QuartzPluginData => {
+      if (!file || typeof file !== 'object') return false
+      const f = file as any
+      return f.slug && typeof f.slug === 'string'
+    })
+    .filter(file => {
+      return !file.slug.startsWith("index") && 
+        !file.slug.startsWith("About") && 
+        !file.slug.startsWith("Topics") && 
+        !file.slug.startsWith("Notes") &&
+        !file.slug.includes("404")
+    })
   
   const [isLoading, setIsLoading] = useState(false)
   

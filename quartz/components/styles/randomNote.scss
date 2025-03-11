@@ -19,7 +19,7 @@
     width: 100%;
     
     &:hover {
-      background-color: darken($color: var(--tertiary), $amount: 10%);
+      opacity: 0.85;
       transform: translateY(-1px);
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }

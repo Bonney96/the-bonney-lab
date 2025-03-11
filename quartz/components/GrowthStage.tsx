@@ -1,18 +1,20 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/growthStage.scss"
 import { jsx } from "preact/jsx-runtime"
+import { QuartzPluginData } from "../plugins/vfile"
 
 type GrowthStageType = "seed" | "tree" | "fruit" | "unknown"
 
 function GrowthStage({ fileData, displayClass, tree }: QuartzComponentProps) {
-  const file = fileData[0]
+  const file = fileData[0] as QuartzPluginData
   if (!file) return null
   
   // Determine the growth stage from frontmatter
   let stage: GrowthStageType = "unknown"
-  if (file.frontmatter && typeof file.frontmatter === "object") {
-    if (file.frontmatter.stage) {
-      const stageValue = String(file.frontmatter.stage).toLowerCase()
+  if (file.frontmatter) {
+    const frontmatter = file.frontmatter as Record<string, any>
+    if (frontmatter.stage) {
+      const stageValue = String(frontmatter.stage).toLowerCase()
       if (["seed", "tree", "fruit"].includes(stageValue)) {
         stage = stageValue as GrowthStageType
       }
@@ -43,7 +45,8 @@ function GrowthStage({ fileData, displayClass, tree }: QuartzComponentProps) {
     }
   }
   
-  if (stage === "unknown" && tree?.slug === "index") {
+  // Don't show the component on index pages or if stage is unknown
+  if (stage === "unknown" && tree && 'slug' in tree && tree.slug === "index") {
     return null
   }
   
