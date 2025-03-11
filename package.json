@@ -1,15 +1,15 @@
 {
-  "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
+  "name": "the-bonney-lab",
+  "description": "🌱 The Bonney Lab Digital Garden",
   "private": true,
-  "version": "4.4.0",
+  "version": "1.0.0",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "Bonney96",
   "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
+  "homepage": "https://bonney96.github.io/the-bonney-lab",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/Bonney96/the-bonney-lab.git"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",

@@ -1,3 +1,6 @@
+# This workflow has been disabled as it's not needed for our digital garden
+# We're using GitHub Pages for deployment instead
+
 name: Docker build & push image
 
 on:
