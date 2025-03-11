@@ -1,0 +1,45 @@
+@use "../../styles/variables.scss" as *;
+
+.growth-stage {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 0.75rem;
+  border-radius: 6px;
+  border-left: 4px solid var(--gray);
+  background-color: var(--lightgray);
+  
+  &.growth-stage-seed {
+    border-left-color: #a1c96a;
+    background-color: rgba(161, 201, 106, 0.1);
+  }
+  
+  &.growth-stage-tree {
+    border-left-color: #4a9375;
+    background-color: rgba(74, 147, 117, 0.1);
+  }
+  
+  &.growth-stage-fruit {
+    border-left-color: #e15554;
+    background-color: rgba(225, 85, 84, 0.1);
+  }
+  
+  .growth-icon {
+    font-size: 1.5rem;
+    margin-right: 0.75rem;
+  }
+  
+  .growth-details {
+    flex: 1;
+    
+    .growth-label {
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    
+    .growth-description {
+      font-size: 0.85rem;
+      color: var(--darkgray);
+    }
+  }
+} 

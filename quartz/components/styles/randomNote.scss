@@ -1,0 +1,36 @@
+@use "../../styles/variables.scss" as *;
+
+.random-note {
+  margin: 1rem 0;
+  
+  .random-note-button {
+    background-color: var(--tertiary);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    &:hover {
+      background-color: darken($color: var(--tertiary), $amount: 10%);
+      transform: translateY(-1px);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    &:active {
+      transform: translateY(0);
+    }
+    
+    &:disabled {
+      background-color: var(--gray);
+      cursor: not-allowed;
+    }
+  }
+} 

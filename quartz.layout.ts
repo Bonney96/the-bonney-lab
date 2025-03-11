@@ -20,6 +20,7 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
+    Component.GrowthStage(),
     Component.ContentMeta(),
     Component.TagList(),
   ],
@@ -27,6 +28,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
+    Component.RandomNote(),
     Component.Darkmode(),
     Component.Explorer(),
   ],
@@ -44,6 +46,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
+    Component.RandomNote(),
     Component.Darkmode(),
     Component.Explorer(),
   ],
