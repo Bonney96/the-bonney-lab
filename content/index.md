@@ -17,11 +17,13 @@ A Digital Garden is like a laboratory where internal work and the evolution of r
 ## Explore The Bonney Lab
 
 - [[About]] - Learn more about The Bonney Lab's purpose
+- [[Projects]] - Browse our research projects
 - [[Topics]] - Browse by research topics
 - [[Notes]] - View all published notes
 
 ## Recent Updates
 
+- New: [[Projects/EpiBench/epibench-introduction|EpiBench]] - An integrated platform for epigenetic analysis
 - Coming soon...
 
 *This digital garden was created with [Quartz](https://quartz.jzhao.xyz/).* 
