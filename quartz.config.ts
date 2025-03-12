@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "https://bonney96.github.io/the-bonney-lab",
-    ignorePatterns: ["private", "templates", ".obsidian", "**/private/**"],
+    ignorePatterns: ["private", "templates", ".obsidian", "**/private/**", "strategy", "**/strategy/**"],
     defaultDateType: "created",
     generateSocialImages: true,
     theme: {

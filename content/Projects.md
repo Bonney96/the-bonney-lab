@@ -32,4 +32,4 @@ Additional projects will be documented here as they develop.
 
 ---
 
-*This page serves as an index of our research projects. Each project has its own section with detailed documentation. Last updated: November 2024.* 
+*This page serves as an index of our research projects. Each project has its own section with detailed documentation. Last updated: March 2024.* 
