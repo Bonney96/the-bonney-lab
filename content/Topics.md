@@ -17,7 +17,7 @@ Browse the contents of The Bonney Lab by research area and topic.
 
 ### Machine Learning for Biology
 
-- [[Projects/EpiBench/epibench-workflow|Machine Learning Workflows for Epigenetic Data]]
+- [[Projects/EpiBench/epibench-workflow-guide|Machine Learning Workflows for Epigenetic Data]]
 - [[Research/Future Research Ideas#Machine Learning Applications|Future Research in ML for Biology]]
 - Coming soon: Explainable AI approaches for genomics
 - Coming soon: Transfer learning across cell types

@@ -92,7 +92,7 @@ EpiBench has been applied to several research questions:
 Interested in using EpiBench for your research? Check out these resources:
 
 - [[Projects/EpiBench/epibench-technical-requirements|Technical Requirements]] for running EpiBench
-- [[Projects/EpiBench/epibench-workflow|Typical Workflow]] demonstrating a standard analysis
+- [[Projects/EpiBench/epibench-workflow-guide|Typical Workflow]] demonstrating a standard analysis
 
 ## Join the Conversation
 
