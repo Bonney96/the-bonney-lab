@@ -16,8 +16,8 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "bonney96.github.io/the-bonney-lab",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "https://bonney96.github.io/the-bonney-lab",
+    ignorePatterns: ["private", "templates", ".obsidian", "**/private/**"],
     defaultDateType: "created",
     generateSocialImages: true,
     theme: {
@@ -74,7 +74,9 @@ const config: QuartzConfig = {
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
-    filters: [Plugin.RemoveDrafts()],
+    filters: [
+      Plugin.RemoveDrafts(),
+    ],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),

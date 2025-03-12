@@ -3,6 +3,10 @@
 .random-note {
   margin: 1rem 0;
   
+  @media (max-width: 600px) {
+    margin: 0.75rem 0;
+  }
+  
   .random-note-button {
     background-color: var(--tertiary);
     color: white;
@@ -18,8 +22,13 @@
     justify-content: center;
     width: 100%;
     
+    &:focus {
+      outline: 2px solid var(--secondary);
+      outline-offset: 2px;
+    }
+    
     &:hover {
-      opacity: 0.85;
+      opacity: 0.9;
       transform: translateY(-1px);
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
@@ -31,6 +40,14 @@
     &:disabled {
       background-color: var(--gray);
       cursor: not-allowed;
+      opacity: 0.7;
+      transform: none;
+      box-shadow: none;
+    }
+    
+    @media (max-width: 600px) {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.85rem;
     }
   }
 } 

@@ -2,31 +2,49 @@
 
 .growth-stage {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin: 1rem 0;
   padding: 0.75rem;
   border-radius: 6px;
   border-left: 4px solid var(--gray);
   background-color: var(--lightgray);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  
+  @media (max-width: 600px) {
+    margin: 0.75rem 0;
+    padding: 0.5rem;
+    font-size: 0.9em;
+  }
+  
+  // Use CSS variables for colors to optimize theme changes
+  --seed-color: 161, 201, 106;
+  --tree-color: 74, 147, 117;
+  --fruit-color: 225, 85, 84;
   
   &.growth-stage-seed {
-    border-left-color: #a1c96a;
-    background-color: rgba(161, 201, 106, 0.1);
+    border-left-color: rgb(var(--seed-color));
+    background-color: rgba(var(--seed-color), 0.1);
   }
   
   &.growth-stage-tree {
-    border-left-color: #4a9375;
-    background-color: rgba(74, 147, 117, 0.1);
+    border-left-color: rgb(var(--tree-color));
+    background-color: rgba(var(--tree-color), 0.1);
   }
   
   &.growth-stage-fruit {
-    border-left-color: #e15554;
-    background-color: rgba(225, 85, 84, 0.1);
+    border-left-color: rgb(var(--fruit-color));
+    background-color: rgba(var(--fruit-color), 0.1);
   }
   
   .growth-icon {
     font-size: 1.5rem;
     margin-right: 0.75rem;
+    flex-shrink: 0;
+    
+    @media (max-width: 600px) {
+      font-size: 1.25rem;
+      margin-right: 0.5rem;
+    }
   }
   
   .growth-details {
@@ -40,6 +58,10 @@
     .growth-description {
       font-size: 0.85rem;
       color: var(--darkgray);
+      
+      @media (max-width: 600px) {
+        font-size: 0.8rem;
+      }
     }
   }
 } 

@@ -18,7 +18,7 @@ EpiBench is a comprehensive bioinformatics platform for analyzing and predicting
 #### Core Documentation
 - [[Projects/EpiBench/epibench-introduction|Introduction to EpiBench]]
 - [[Projects/EpiBench/epibench-technical-requirements|Technical Requirements]]
-- [[Projects/EpiBench/epibench-workflow-guide|EpiBench Workflow Guide]]
+- [[Projects/EpiBench/epibench-analysis-process|Analysis Process Guide]]
 - [[Projects/EpiBench/epibench-aml-case-study|AML Methylation Prediction Case Study]]
 
 #### Washington University Implementation

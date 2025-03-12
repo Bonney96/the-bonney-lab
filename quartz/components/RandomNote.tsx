@@ -1,27 +1,29 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/randomNote.scss"
 import { jsx } from "preact/jsx-runtime"
-import { useCallback, useEffect, useState } from "preact/hooks"
+import { useCallback, useEffect, useMemo, useState } from "preact/hooks"
 import { QuartzPluginData } from "../plugins/vfile"
 
-function RandomNote({ fileData, displayClass }: QuartzComponentProps) {
-  // Convert fileData to an array we can work with
-  const typedFileData = Array.isArray(fileData) ? fileData : []
-  
-  // Filter notes to exclude special pages
-  const allNotes = typedFileData
-    .filter((file): file is QuartzPluginData => {
-      if (!file || typeof file !== 'object') return false
-      const f = file as any
-      return f.slug && typeof f.slug === 'string'
-    })
-    .filter(file => {
-      return !file.slug.startsWith("index") && 
-        !file.slug.startsWith("About") && 
-        !file.slug.startsWith("Topics") && 
-        !file.slug.startsWith("Notes") &&
-        !file.slug.includes("404")
-    })
+function RandomNote({ fileData, displayClass, cfg }: QuartzComponentProps) {
+  const allNotes = useMemo(() => {
+    // Convert fileData to an array we can work with
+    const typedFileData = Array.isArray(fileData) ? fileData : []
+    
+    // Filter notes to exclude special pages
+    return typedFileData
+      .filter((file): file is QuartzPluginData => {
+        if (!file || typeof file !== 'object') return false
+        const f = file as any
+        return f.slug && typeof f.slug === 'string'
+      })
+      .filter(file => {
+        return !file.slug.startsWith("index") && 
+          !file.slug.startsWith("About") && 
+          !file.slug.startsWith("Topics") && 
+          !file.slug.startsWith("Notes") &&
+          !file.slug.includes("404")
+      })
+  }, [fileData])
   
   const [isLoading, setIsLoading] = useState(false)
   
@@ -33,12 +35,22 @@ function RandomNote({ fileData, displayClass }: QuartzComponentProps) {
       const randomIndex = Math.floor(Math.random() * allNotes.length)
       const randomNote = allNotes[randomIndex]
       
-      // Navigate to the random note
-      window.location.href = randomNote.slug || "/"
+      // Use SPA navigation if enabled, otherwise fallback to regular navigation
+      if (cfg?.enableSPA) {
+        // Use window.history for SPA navigation
+        window.history.pushState({}, "", randomNote.slug)
+        // Dispatch a popstate event to trigger navigation in Quartz
+        window.dispatchEvent(new PopStateEvent("popstate"))
+        // Reset loading state after a short delay
+        setTimeout(() => setIsLoading(false), 150)
+      } else {
+        // Regular navigation
+        window.location.href = randomNote.slug || "/"
+      }
     }
-  }, [allNotes, isLoading])
+  }, [allNotes, isLoading, cfg])
   
-  // Reset loading state after navigation starts
+  // Reset loading state after component unmounts
   useEffect(() => {
     return () => setIsLoading(false)
   }, [])
@@ -53,6 +65,7 @@ function RandomNote({ fileData, displayClass }: QuartzComponentProps) {
         class="random-note-button" 
         onClick={navigateToRandomNote}
         disabled={isLoading}
+        aria-label="Navigate to a random note"
       >
         {isLoading ? "Loading..." : "🌱 Random Note"}
       </button>

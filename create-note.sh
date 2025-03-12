@@ -5,14 +5,27 @@
 # Set colors for better visibility
 GREEN='\033[0;32m'
 BLUE='\033[0;34m'
+RED='\033[0;31m'
 NC='\033[0m' # No Color
 
+# Print a stylized header
 echo -e "${BLUE}=== Bonney Lab Digital Garden Note Creator ===${NC}"
 echo "This script will help you create a new note with the proper structure."
 echo
 
+# Function to handle errors
+handle_error() {
+  echo -e "${RED}Error: $1${NC}"
+  exit 1
+}
+
 # Get the note title
 read -p "Enter the note title: " title
+
+# Validate title is not empty
+if [ -z "$title" ]; then
+  handle_error "Title cannot be empty"
+fi
 
 # Generate the filename from the title
 # Convert to lowercase, replace spaces with hyphens, remove special characters
@@ -29,36 +42,32 @@ read -p "Enter your choice (1-3): " stage_choice
 case $stage_choice in
     1) 
         stage="seed"
-        template="content/Meta/Templates/seed-template.md"
-        folder="content/Seeds"
+        folder="content/Research"
         ;;
     2) 
         stage="tree"
-        template="content/Meta/Templates/tree-template.md"
         folder="content/Trees"
         ;;
     3) 
         stage="fruit"
-        template="content/Meta/Templates/fruit-template.md"
-        folder="content/Fruits"
+        folder="content/Projects"
         ;;
     *) 
-        echo "Invalid choice. Defaulting to seed."
+        echo -e "${RED}Invalid choice. Defaulting to seed.${NC}"
         stage="seed"
-        template="content/Meta/Templates/seed-template.md"
-        folder="content/Seeds"
+        folder="content/Research"
         ;;
 esac
 
 # Create folders if they don't exist
-mkdir -p "$folder"
+mkdir -p "$folder" || handle_error "Failed to create directory $folder"
 
 # The destination file
 dest_file="$folder/$filename.md"
 
 # Check if file already exists
 if [ -f "$dest_file" ]; then
-    echo "Warning: File $dest_file already exists."
+    echo -e "${RED}Warning: File $dest_file already exists.${NC}"
     read -p "Do you want to overwrite it? (y/n): " overwrite
     if [ "$overwrite" != "y" ]; then
         echo "Operation cancelled."
@@ -66,12 +75,22 @@ if [ -f "$dest_file" ]; then
     fi
 fi
 
-# Copy the template
-cp "$template" "$dest_file"
+# Get current date in ISO format
+current_date=$(date +"%Y-%m-%d")
 
-# Replace the placeholder title in frontmatter and content
-sed -i '' "s/Title Goes Here/$title/g" "$dest_file"
-sed -i '' "s/{{Title}}/$title/g" "$dest_file"
+# Create the frontmatter
+cat > "$dest_file" << EOF
+---
+title: "${title}"
+date: ${current_date}
+stage: "${stage}"
+tags:
+  - ${stage}
+---
+
+# ${title}
+
+EOF
 
 echo
 echo -e "${GREEN}Success!${NC} Note created at: $dest_file"
