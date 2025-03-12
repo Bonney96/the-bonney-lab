@@ -1,35 +1,43 @@
 ---
-title: Notes
+title: Research Notes
 ---
 
-# Notes
+# Research Notes
 
-This page displays all published notes in The Bonney Lab digital garden. Notes are organized chronologically, with the most recent updates first.
+This page contains research notes, technical documentation, and tutorials related to my work in computational biology and bioinformatics.
 
-## Seeds (Raw Ideas)
+## Technical Tutorials
 
-These are initial thoughts and ideas that are still in their early stages:
+Step-by-step guides for various bioinformatics and computational tasks:
 
-- Coming soon...
+- Coming soon: Setting up a machine learning environment for genomic data analysis
+- Coming soon: Processing and analyzing ChIP-seq data
 
-## Trees (Growing Ideas)
+## Research Insights
 
-These ideas have begun to develop and connect with other concepts:
+Notes on research findings, literature reviews, and methodological considerations:
 
-- Coming soon...
+- Coming soon: Comparing deep learning architectures for epigenetic prediction
+- Coming soon: Integrating multi-modal genomic data - challenges and approaches
 
-## Fruits (Refined Ideas)
+## Tool Documentation
 
-These are more polished thoughts that have matured through iteration:
+Documentation for tools and software developed by The Bonney Lab:
 
-- Coming soon...
+- Coming soon: EpiBench user guides and tutorials
 
-## Meta Notes
+## Reference Notes
 
-Notes about the digital garden itself and knowledge management practices:
+Reference materials and technical notes for common bioinformatics tasks:
 
-- [[Meta/Digital Garden/What is a Digital Garden]]
-- [[Meta/Digital Garden/Setting Up Quartz]]
-- [[Meta/Knowledge Management/Building a PKM System]]
+- Coming soon: Common file formats in genomics research
+- Coming soon: Best practices for reproducible computational research
 
-*Check back regularly as new notes are added. The beauty of a digital garden is that it grows over time!* 
+## Meta
+
+Notes about this site and research documentation practices:
+
+- [[Meta/Website/Setting Up Quartz|Setting Up a Research Website with Quartz]]
+- [[Meta/Knowledge Management/Building a PKM System|Building a Personal Knowledge Management System]]
+
+*These notes are regularly updated as research progresses and new insights emerge.* 

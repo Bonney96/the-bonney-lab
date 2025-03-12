@@ -4,33 +4,45 @@ title: About The Bonney Lab
 
 # About The Bonney Lab
 
-## Purpose & Philosophy
+## Purpose & Research Focus
 
-The Bonney Lab is a digital garden dedicated to the continuous learning and sharing of knowledge. Unlike traditional blogs where articles are published in a finished state, this space embraces the evolving nature of ideas.
+The Bonney Lab is dedicated to advancing computational approaches in epigenetics and genomics. My work focuses on developing innovative tools and methodologies that help researchers analyze complex biological data more effectively.
 
-Here, you'll find:
-- Raw thoughts (Seeds)
-- Developing concepts (Trees)
-- Refined ideas (Fruits)
+Key research areas include:
+- Epigenetic pattern prediction using machine learning
+- Integration of multi-modal genomic data
+- Development of interpretable AI for biological insights
+- Open-source bioinformatics tools
 
-## Why a Digital Garden?
+## Research Philosophy
 
-Traditional blogs and research articles follow a linear structure and present a complete picture. In contrast, The Bonney Lab allows for documenting ideas in a non-linear fashion, letting them evolve over time.
+My approach to research is guided by several core principles:
 
-The benefits include:
-- **Continuous Refinement**: Unlike blogs that are written once and forgotten, digital gardens require continuous updates and refinements.
-- **Public Knowledge Sharing**: Publishing notes publicly not only helps others but also invites feedback from peers.
-- **Idea Visualization**: By linking related notes, we create a clearer understanding of ideas and their connections.
+- **Open Science**: I believe in making research methods, data, and tools openly available to promote collaboration and reproducibility.
+- **Interdisciplinary Collaboration**: The most interesting problems exist at the intersection of different fields. I actively seek collaborations across disciplines.
+- **Learning in Public**: By sharing my research process, including challenges and failures, I hope to contribute to collective knowledge and invite valuable feedback.
+- **Tool-Building**: Creating accessible, well-documented tools that others can use is as important as the research itself.
 
-## How to Navigate
+## Background
 
-- Use the search function to find specific topics
-- Browse through the [[Topics]] page to explore by category
-- Check out the [[Notes]] page to see all entries in chronological order
-- Explore the graph view to see connections between ideas
+[Brief background about yourself - education, research experience, etc.]
+
+## Current Projects
+
+My current focus is on developing EpiBench, an integrated platform for epigenetic analysis that combines machine learning with biological interpretability. You can learn more about this and other projects on the [[Projects]] page.
+
+## How to Navigate This Site
+
+- **Projects**: Detailed documentation of major research projects
+- **Notes**: Technical notes, tutorials, and research insights
+- **Topics**: Content organized by research area
 
 ## Get in Touch
 
-Have feedback or want to discuss an idea? Feel free to reach out through the Contact page or GitHub.
+I welcome collaboration opportunities, questions about my research, or feedback on the tools I've developed. Feel free to reach out through:
 
-*This digital garden is continuously evolving - check back often to see how ideas grow and develop.* 
+- Email: [your email]
+- GitHub: [Bonney96](https://github.com/Bonney96)
+- Twitter: [@YourHandle](https://twitter.com/YourHandle)
+
+*This site is continuously updated with new research findings and project developments.* 

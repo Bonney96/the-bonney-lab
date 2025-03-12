@@ -1,48 +1,70 @@
 ---
-title: Topics
+title: Research Topics
 ---
 
-# Topics
+# Research Topics
 
-Browse the contents of The Bonney Lab Digital Garden by topic area.
+Browse the contents of The Bonney Lab by research area and topic.
 
-## By Growth Stage
+## Research Areas
 
-The Bonney Lab organizes content by maturity, following the gardening metaphor:
+### Epigenetics & Genomics
 
-- [[Seeds|🌱 Seeds]] - Raw, nascent ideas that are just beginning to sprout
-- [[Trees|🌿 Trees]] - Ideas taking root with developed structure and connections
-- [[Fruits|🍎 Fruits]] - Mature, refined ideas that have reached a stable state
+- [[Projects/EpiBench/epibench-introduction|EpiBench: Epigenetic Analysis Platform]]
+- [[Projects/EpiBench/epibench-aml-case-study|AML Methylation Prediction Case Study]]
+- [[Research/Future Research Ideas#Epigenetics & Genomics|Future Research in Epigenetics]]
+- Coming soon: Histone modification pattern analysis
 
-Learn more about this organization system in [[Understanding Growth Stages]].
+### Machine Learning for Biology
 
-## By Subject Area
+- [[Projects/EpiBench/epibench-workflow|Machine Learning Workflows for Epigenetic Data]]
+- [[Research/Future Research Ideas#Machine Learning Applications|Future Research in ML for Biology]]
+- Coming soon: Explainable AI approaches for genomics
+- Coming soon: Transfer learning across cell types
 
-Browse notes by their subject area:
+### Bioinformatics Tools
 
-- **Digital Garden**: Concepts related to digital gardening and knowledge management
-  - [[Digital Garden Principles]]
-  - [[Understanding Growth Stages]]
-  - [[Adding Notes Guide]]
+- [[Projects/EpiBench/epibench-technical-requirements|EpiBench Technical Documentation]]
+- [[Research/Future Research Ideas#Bioinformatics Tool Development|Future Tool Development Ideas]]
+- Coming soon: Visualization tools for genomic data
+- Coming soon: Reproducible bioinformatics pipelines
 
-- **Research Ideas**: Explorations and potential research directions
-  - [[Ideas for Future Research]]
+## Technical Topics
 
-- **Meta**: Information about The Bonney Lab itself
-  - [[About]]
-  - [[Meta/Digital Garden/Bonney Lab Structure|Garden Structure]]
+### Research Methods
+
+- [[Research/Research Documentation Principles|Research Documentation Principles]]
+- Coming soon: Reproducible computational research practices
+
+### Data Analysis
+
+- Coming soon: Statistical approaches for genomic data
+- Coming soon: Dimensionality reduction techniques for multi-modal data
+
+### Software Development
+
+- Coming soon: Best practices for scientific software
+- Coming soon: Containerization for bioinformatics applications
+
+### Visualization
+
+- Coming soon: Interactive genomic data visualization
+- Coming soon: Effective visualization of machine learning results
 
 ## By Tag
 
-Browse notes by tag:
+Browse content by tag:
 
-- #digital-garden
-- #meta
+- #epigenetics
+- #machine-learning
+- #bioinformatics
+- #genomics
+- #visualization
+- #software-development
+- #data-analysis
 - #research
-- #ideas
-- #knowledge-management
-- #principles
+- #documentation
 
 ---
 
-*Can't find what you're looking for? Try using the search or check out the [[Notes]] page.* 
+*Can't find what you're looking for? Try using the search function or check out the [[Projects]] page for major research initiatives.* 
