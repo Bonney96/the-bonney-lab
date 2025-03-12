@@ -41,8 +41,8 @@ My current focus is on developing EpiBench, an integrated platform for epigeneti
 
 I welcome collaboration opportunities, questions about my research, or feedback on the tools I've developed. Feel free to reach out through:
 
-- Email: [your email]
+- Email: abonney@wustl.edeu
 - GitHub: [Bonney96](https://github.com/Bonney96)
-- Twitter: [@YourHandle](https://twitter.com/YourHandle)
+- LinkedIn: [@AndrewBonney](https://www.linkedin.com/in/andrew-bonney/)
 
 *This site is continuously updated with new research findings and project developments.* 
