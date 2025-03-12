@@ -1,115 +1,109 @@
 ---
-title: Setting Up Quartz
+title: Setting Up a Research Website with Quartz
 tags:
-  - digital-garden
+  - website
+  - documentation
   - quartz
-  - tutorial
 ---
 
-# Setting Up Quartz for Your Digital Garden
+# Setting Up a Research Website with Quartz
 
-[Quartz](https://quartz.jzhao.xyz/) is a powerful and flexible framework for creating digital gardens. This guide will walk you through the process of setting up your own digital garden using Quartz.
+This guide outlines the steps to set up a research website using Quartz, a static site generator designed for knowledge sharing.
 
 ## Prerequisites
 
-Before you begin, make sure you have:
-- [Node.js](https://nodejs.org/) installed (v14 or higher)
-- [Git](https://git-scm.com/) installed
-- A GitHub account (for hosting)
-- Basic familiarity with the command line
+- Basic familiarity with Git and GitHub
+- Node.js installed on your computer
+- A text editor for editing markdown files
 
 ## Step 1: Clone the Quartz Repository
 
-Start by cloning the Quartz repository:
-
-```bash
-git clone https://github.com/jackyzha0/quartz.git your-garden-name
-cd your-garden-name
-```
+1. Fork the [Quartz repository](https://github.com/jackyzha0/quartz) on GitHub
+2. Clone your forked repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/quartz.git
+   ```
+3. Navigate to the cloned directory:
+   ```bash
+   cd quartz
+   ```
 
 ## Step 2: Install Dependencies
 
-Install the necessary dependencies:
+Install the required dependencies:
 
 ```bash
-npm i
+npm install
 ```
 
-## Step 3: Initialize Your Digital Garden
+## Step 3: Configure Your Site
 
-Run the create command to set up your digital garden:
+1. Open `quartz.config.ts` in your text editor
+2. Update the configuration settings:
+   - Set the `pageTitle` to your research lab or project name
+   - Update the `baseUrl` if you plan to host it on a custom domain
+   - Configure other settings as needed
 
-```bash
-npx quartz create
-```
+## Step 4: Create Content
 
-Choose "Empty Quartz" when prompted to initialize the content.
+1. Create markdown files in the `content` directory
+2. Use frontmatter at the top of each file to add metadata:
+   ```markdown
+   ---
+   title: Your Title
+   tags:
+     - research
+     - bioinformatics
+   ---
+   ```
+3. Organize content in subdirectories for better structure
 
-## Step 4: Customize Your Configuration
+## Step 5: Preview Your Site
 
-Edit the `quartz.config.ts` file to customize your digital garden:
-- Change the `pageTitle` to your garden's name
-- Update the `baseUrl` if you plan to host it on a custom domain
-- Customize the fonts and colors to match your preferences
-
-Edit the `quartz.layout.ts` file to customize the layout and footer links.
-
-## Step 5: Add Content
-
-Create Markdown files in the `content` directory. Each file should have front matter with at least a title:
-
-```markdown
----
-title: Your Note Title
-tags:
-  - tag1
-  - tag2
----
-
-# Your Note Content
-
-Write your note content here...
-```
-
-## Step 6: Preview Your Digital Garden
-
-Run the following command to build and preview your digital garden locally:
+Run the development server to preview your site:
 
 ```bash
 npx quartz build --serve
 ```
 
-Visit `http://localhost:8080` in your browser to see your digital garden.
+This will start a local server, typically at http://localhost:8080
 
-## Step 7: Deploy to GitHub Pages
+## Step 6: Deploy Your Site
 
-1. Create a new GitHub repository
-2. Update the remote URL:
-   ```bash
-   git remote rm origin
-   git remote add origin https://github.com/yourusername/your-repo-name.git
-   ```
-3. Push your changes:
-   ```bash
-   npx quartz sync --no-pull
-   ```
-4. In your GitHub repository, go to Settings > Pages
-5. Select "GitHub Actions" as the source
-6. Your site will be deployed at `https://yourusername.github.io/your-repo-name/`
+### GitHub Pages
 
-## Tips for Maintaining Your Digital Garden
+1. Push your changes to GitHub
+2. Set up GitHub Pages in your repository settings
+3. Configure GitHub Actions for automatic deployment
 
-- Use consistent tagging to organize your notes
-- Create index pages for different categories
-- Link related notes to create a network of ideas
-- Regularly update and refine your notes
-- Use the graph view to visualize connections
+### Other Hosting Options
 
-## Related
+- Netlify
+- Vercel
+- Cloudflare Pages
 
-- [[What is a Digital Garden]]
-- [[Meta/Knowledge Management/Building a PKM System]]
+## Tips for Research Websites
+
+- **Organize by project**: Create separate sections for each research project
+- **Include documentation**: Add detailed documentation for tools and methods
+- **Link related content**: Use internal links to connect related research notes
+- **Add visualizations**: Include charts, diagrams, and interactive elements
+- **Keep it updated**: Regularly update content with new research findings
+
+## Useful Quartz Features
+
+- **Search functionality**: Makes it easy to find specific content
+- **Graph visualization**: Shows connections between different notes
+- **Tags**: Helps categorize and filter content
+- **Responsive design**: Works well on mobile devices
+- **Customizable themes**: Allows for personalization
+
+## Resources
+
+- [Quartz Documentation](https://quartz.jzhao.xyz/)
+- [Markdown Guide](https://www.markdownguide.org/)
+- [GitHub Pages Documentation](https://docs.github.com/en/pages)
 
 ---
 
-*This guide will be updated as Quartz evolves and new features are added.* 
+*This guide provides basic instructions for setting up a research website with Quartz. Customize it to fit your specific needs and research focus.* 
