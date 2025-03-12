@@ -1,6 +1,6 @@
 ---
 title: "EpiBench: An Integrated Platform for Epigenetic Analysis"
-date: "2023-06-15"
+date: "2024-09-03"
 tags: ["epigenetics", "bioinformatics", "machine learning", "methylation", "research"]
 status: "growing"
 ---
@@ -9,7 +9,7 @@ status: "growing"
 
 ![EpiBench Visualization Example](https://via.placeholder.com/800x400?text=EpiBench+Visualization+Example)
 
-*Note: This is a living document that will evolve as EpiBench develops further. Last updated: 2023-06-15*
+*Note: This is a living document that will evolve as EpiBench develops further. Last updated: 2024-09-03*
 
 ## The Epigenetic Challenge
 

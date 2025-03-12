@@ -14,6 +14,10 @@ Key research areas include:
 - Development of interpretable AI for biological insights
 - Open-source bioinformatics tools
 
+## Current Affiliation
+
+I am currently a Bioinformatics Research Assistant in the Division of Medical Oncology at Washington University in St. Louis (since September 2024). I work in the [David Spencer Lab](https://www.davidspencerlab.org/lab/), where I assist with implementing algorithms and software for analyzing omics-based data sets and developing new analytical methods for large-scale genomic, epigenomic, and clinical datasets.
+
 ## Research Philosophy
 
 My approach to research is guided by several core principles:

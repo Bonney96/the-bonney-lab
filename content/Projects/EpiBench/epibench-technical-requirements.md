@@ -1,6 +1,6 @@
 ---
 title: "EpiBench Technical Requirements and Setup"
-date: "2023-07-20"
+date: "2024-09-20"
 tags: ["epigenetics", "bioinformatics", "technical", "installation"]
 status: "growing"
 related: ["Projects/EpiBench/epibench-introduction", "Projects/EpiBench/epibench-aml-case-study"]
@@ -10,7 +10,7 @@ related: ["Projects/EpiBench/epibench-introduction", "Projects/EpiBench/epibench
 
 ![EpiBench Technical Setup](https://via.placeholder.com/800x400?text=EpiBench+Technical+Setup)
 
-*This note outlines the technical requirements and setup process for EpiBench. Since this is an active project, requirements may evolve—check back for updates. Last updated: {{date}}*
+*This note outlines the technical requirements and setup process for EpiBench. Since this is an active project, requirements may evolve—check back for updates. Last updated: 2024-09-20*
 
 ## Hardware Requirements
 
@@ -130,63 +130,3 @@ Be aware that genomic analyses can require significant storage:
    git clone https://github.com/username/epibench.git
    cd epibench
    ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Install the package:
-   ```bash
-   pip install -e .
-   ```
-
-### Option 2: Docker Container
-
-For those preferring containerized deployment:
-
-1. Pull the Docker image:
-   ```bash
-   docker pull username/epibench:latest
-   ```
-
-2. Run the container:
-   ```bash
-   docker run -it --gpus all -v /path/to/data:/data username/epibench:latest
-   ```
-
-## Verification and Testing
-
-After installation, verify your setup:
-
-```bash
-# Activate environment if needed
-conda activate epibench
-
-# Run test suite
-python -m epibench.tests.run_all
-
-# Run a simple example
-python examples/simple_prediction.py
-```
-
-## Common Issues and Solutions
-
-| Problem | Possible Cause | Solution |
-|---------|----------------|----------|
-| CUDA out of memory | Dataset too large for GPU | Reduce batch size or use data chunking |
-| Missing histone data | BigWig file path incorrect | Check file paths and formats |
-| Slow performance | CPU-only processing | Enable GPU acceleration or optimize batch size |
-| Import errors | Missing dependencies | Check all required packages are installed |
-
-## Getting Help
-
-If you encounter issues not covered here:
-
-- Check the [GitHub Issues](https://github.com/username/epibench/issues) page
-- Join our [Discord community](https://discord.gg/example) for real-time support
-- Email us at support@example.com
-
----
-
-*This note covers the technical setup for EpiBench. To understand the platform's capabilities, visit the [[Projects/EpiBench/epibench-introduction|Introduction to EpiBench]] page. For a practical application example, see the [[Projects/EpiBench/epibench-aml-case-study|AML Case Study]].* 

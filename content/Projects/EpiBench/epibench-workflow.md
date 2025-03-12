@@ -1,6 +1,6 @@
 ---
 title: "EpiBench Workflow: A Step-by-Step Guide"
-date: "2023-09-05"
+date: "2024-11-20"
 tags: ["epigenetics", "bioinformatics", "workflow", "tutorial"]
 status: "growing"
 related: ["Projects/EpiBench/epibench-introduction", "Projects/EpiBench/epibench-technical-requirements", "Projects/EpiBench/epibench-aml-case-study"]
@@ -10,7 +10,7 @@ related: ["Projects/EpiBench/epibench-introduction", "Projects/EpiBench/epibench
 
 ![EpiBench Workflow Diagram](https://via.placeholder.com/800x400?text=EpiBench+Workflow+Diagram)
 
-*This note walks through a typical EpiBench workflow from data preparation to results interpretation. Last updated: {{date}}*
+*This note walks through a typical EpiBench workflow from data preparation to results interpretation. Last updated: 2024-11-20*
 
 ## Overview
 
