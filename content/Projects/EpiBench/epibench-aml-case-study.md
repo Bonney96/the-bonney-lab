@@ -26,11 +26,11 @@ Our experiment focused on AML samples with the t(8;21) translocation, a common c
 
 - **Methylation data**: Generated from WGBS using our unified processing pipeline
 - **Histone modification data**: Cut&Tag experiments measuring five key histone marks:
-  - H3K4me1 (enhancer regions)
-  - H3K4me3 (active promoters)
-  - H3K27me3 (repressed regions)
-  - H3K36me3 (transcribed gene bodies)
-  - H3K9me3 (heterochromatin)
+  - H3K4me1
+  - H3K4me3
+  - H3K27me3
+  - H3K36me3
+  - H3K9me3
 - **Samples**: Three AML patient samples with t(8;21) translocation (IDs: 263578, 463352, 847670)
 
 ### Model Architecture
@@ -39,9 +39,9 @@ We employed EpiBench's multi-branch CNN model with:
 
 - **Input layers** for:
   - DNA sequence (one-hot encoded)
-  - Five histone modification tracks
-  - Region mask
-- **Three CNN branches** with kernel sizes 3, 5, and 7 to capture patterns at different scales
+  - Six histone modification tracks
+  - Region mask / Region Boundaries
+- **Four CNN branches** with kernel sizes 3, 9, 25, and 51 to capture patterns at different scales
 - **Integration layers** combining features from all branches
 - **Output layer** predicting methylation scores between 0 and 1
 
