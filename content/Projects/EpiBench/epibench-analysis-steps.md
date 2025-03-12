@@ -3,7 +3,7 @@ title: "EpiBench Analysis: Detailed Process Guide"
 date: "2024-11-22"
 tags: ["epigenetics", "bioinformatics", "tutorial", "data-analysis"]
 status: "growing"
-related: ["Projects/EpiBench/epibench-introduction", "Projects/EpiBench/epibench-technical-requirements", "Projects/EpiBench/epibench-aml-case-study"]
+related: ["Projects/EpiBench/epibench-introduction", "Projects/EpiBench/epibench-technical-requirements", "Projects/EpiBench/epibench-aml-study"]
 ---
 
 # EpiBench Analysis: Detailed Process Guide
@@ -223,4 +223,4 @@ pretrained.train(
 
 ---
 
-*For technical setup details, see the [[Projects/EpiBench/epibench-technical-requirements|Technical Requirements]] page. For a practical example, check the [[Projects/EpiBench/epibench-aml-case-study|AML Case Study]].* 
+*For technical setup details, see the [[Projects/EpiBench/epibench-technical-requirements|Technical Requirements]] page. For a practical example, check the [[Projects/EpiBench/epibench-aml-study|AML Case Study]].* 

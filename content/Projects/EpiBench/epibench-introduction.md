@@ -83,7 +83,7 @@ This digital garden will document ongoing improvements and applications as EpiBe
 
 EpiBench has been applied to several research questions:
 
-- Predicting DNA methylation in AML samples using histone modification data [[Projects/EpiBench/epibench-aml-case-study|AML case study]]
+- Predicting DNA methylation in AML samples using histone modification data [[Projects/EpiBench/epibench-aml-study|AML case study]]
 - Identifying regulatory motifs associated with specific histone mark combinations
 - Comparing epigenetic profiles across different cell types and conditions
 
@@ -92,7 +92,7 @@ EpiBench has been applied to several research questions:
 Interested in using EpiBench for your research? Check out these resources:
 
 - [[Projects/EpiBench/epibench-technical-requirements|Technical Requirements]] for running EpiBench
-- [[Projects/EpiBench/epibench-analysis-process|Analysis Process Guide]] demonstrating a standard analysis
+- [[Projects/EpiBench/epibench-analysis-steps|Analysis Process Guide]] demonstrating a standard analysis
 
 ## Join the Conversation
 

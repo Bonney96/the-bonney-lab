@@ -11,13 +11,13 @@ Browse the contents of The Bonney Lab by research area and topic.
 ### Epigenetics & Genomics
 
 - [[Projects/EpiBench/epibench-introduction|EpiBench: Epigenetic Analysis Platform]]
-- [[Projects/EpiBench/epibench-aml-case-study|AML Methylation Prediction Case Study]]
+- [[Projects/EpiBench/epibench-aml-study|AML Methylation Prediction Case Study]]
 - [[Research/Future Research Ideas#Epigenetics & Genomics|Future Research in Epigenetics]]
 - Coming soon: Histone modification pattern analysis
 
 ### Machine Learning for Biology
 
-- [[Projects/EpiBench/epibench-analysis-process|Machine Learning for Epigenetic Data Analysis]]
+- [[Projects/EpiBench/epibench-analysis-steps|Machine Learning for Epigenetic Data Analysis]]
 - [[Research/Future Research Ideas#Machine Learning Applications|Future Research in ML for Biology]]
 - Coming soon: Explainable AI approaches for genomics
 - Coming soon: Transfer learning across cell types
