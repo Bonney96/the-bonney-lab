@@ -99,46 +99,46 @@ These experiments have provided valuable insights into how well methylation pred
 ### Original CD34-trained Model Performance
 
 #### AML Samples (CD34 Model)
-![AML Sample 263578 Methylation Comparison (CD34 Model)](/assets/CD34_model/263578_methylation_comparison.png)
+![AML Sample 263578 Methylation Comparison (CD34 Model)](/static/assets/CD34_model/263578_methylation_comparison.png)
 
-![AML Sample 463352 Methylation Comparison (CD34 Model)](/assets/CD34_model/463352_methylation_comparison.png)
+![AML Sample 463352 Methylation Comparison (CD34 Model)](/static/assets/CD34_model/463352_methylation_comparison.png)
 
-![AML Sample 847670 Methylation Comparison (CD34 Model)](/assets/CD34_model/847670_methylation_comparison.png)
+![AML Sample 847670 Methylation Comparison (CD34 Model)](/static/assets/CD34_model/847670_methylation_comparison.png)
 
 #### CD34 Samples (CD34 Model)
-![CD34 Sample RO04046 Methylation Prediction (CD34 Model)](/assets/CD34_model/methylation_prediction_scatter_RO04046.png)
+![CD34 Sample RO04046 Methylation Prediction (CD34 Model)](/static/assets/CD34_model/methylation_prediction_scatter_RO04046.png)
 
-![CD34 Sample RO04050 Methylation Prediction (CD34 Model)](/assets/CD34_model/methylation_prediction_scatter_RO04050.png)
+![CD34 Sample RO04050 Methylation Prediction (CD34 Model)](/static/assets/CD34_model/methylation_prediction_scatter_RO04050.png)
 
-![CD34 Sample RO04068 Methylation Prediction (CD34 Model)](/assets/CD34_model/methylation_prediction_scatter_RO04068.png)
+![CD34 Sample RO04068 Methylation Prediction (CD34 Model)](/static/assets/CD34_model/methylation_prediction_scatter_RO04068.png)
 
 #### Enhanced Visualization (CD34 Model)
-![Enhanced Visualization Sample (CD34 Model)](/assets/CD34_model/enhanced_visualization_sample_0.png)
+![Enhanced Visualization Sample (CD34 Model)](/static/assets/CD34_model/enhanced_visualization_sample_0.png)
 
 ### AML-trained Model Performance
 
 #### AML Samples (AML Model)
-![AML Sample 263578 Methylation Comparison (AML Model)](/assets/AML_model/methylation_comparison_263578.png)
+![AML Sample 263578 Methylation Comparison (AML Model)](/static/assets/AML_model/methylation_comparison_263578.png)
 
-![AML Sample 463352 Methylation Comparison (AML Model)](/assets/AML_model/methylation_comparison_463352.png)
+![AML Sample 463352 Methylation Comparison (AML Model)](/static/assets/AML_model/methylation_comparison_463352.png)
 
-![AML Sample 847670 Methylation Comparison (AML Model)](/assets/AML_model/methylation_comparison_847670.png)
+![AML Sample 847670 Methylation Comparison (AML Model)](/static/assets/AML_model/methylation_comparison_847670.png)
 
 #### CD34 Samples (AML Model)
-![CD34 Sample RO04046 Methylation Prediction (AML Model)](/assets/AML_model/methylation_prediction_scatter_RO04046.png)
+![CD34 Sample RO04046 Methylation Prediction (AML Model)](/static/assets/AML_model/methylation_prediction_scatter_RO04046.png)
 
-![CD34 Sample RO04050 Methylation Prediction (AML Model)](/assets/AML_model/methylation_prediction_scatter_RO04050.png)
+![CD34 Sample RO04050 Methylation Prediction (AML Model)](/static/assets/AML_model/methylation_prediction_scatter_RO04050.png)
 
-![CD34 Sample RO04068 Methylation Prediction (AML Model)](/assets/AML_model/methylation_prediction_scatter_RO04068.png)
+![CD34 Sample RO04068 Methylation Prediction (AML Model)](/static/assets/AML_model/methylation_prediction_scatter_RO04068.png)
 
 #### Enhanced Visualization (AML Model)
-![Enhanced Visualization Sample (AML Model)](/assets/AML_model/enhanced_visualization_sample_0.png)
+![Enhanced Visualization Sample (AML Model)](/static/assets/AML_model/enhanced_visualization_sample_0.png)
 
 ### Interactive Visualizations
 
-The following interactive visualizations are available but may require opening the HTML files directly:
+The following interactive visualizations are available:
 
-- [CD34 Model Interactive Visualization](/assets/CD34_model/cnn_pred_vs_actual_interactive.html)
-- [AML Model Interactive Visualization](/assets/AML_model/cnn_pred_vs_actual_interactive.html)
+- [CD34 Model Interactive Visualization](/static/assets/CD34_model/cnn_pred_vs_actual_interactive.html)
+- [AML Model Interactive Visualization](/static/assets/AML_model/cnn_pred_vs_actual_interactive.html)
 
 *Note: The interactive visualizations require a web browser to view and explore the data in detail.* 
