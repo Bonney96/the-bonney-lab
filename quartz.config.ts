@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "https://bonney96.github.io/the-bonney-lab",
+    baseUrl: "bonney96.github.io/the-bonney-lab",
     ignorePatterns: ["private", "templates", ".obsidian", "**/private/**", "strategy", "**/strategy/**"],
     defaultDateType: "created",
     generateSocialImages: true,
